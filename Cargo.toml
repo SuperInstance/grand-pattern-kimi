@@ -1,0 +1,14 @@
+[package]
+name = "grand-pattern-kimi"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "grand_pattern_kimi"
+path = "src/lib.rs"
+
+[[bin]]
+name = "grand-pattern-kimi"
+path = "src/main.rs"
+
+[dependencies]
